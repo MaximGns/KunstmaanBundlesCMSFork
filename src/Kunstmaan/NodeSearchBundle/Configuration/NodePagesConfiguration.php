@@ -341,11 +341,13 @@ class NodePagesConfiguration implements SearchConfigurationInterface
     public function setAnalysis(Index $index, AnalysisFactoryInterface $analysis)
     {
         $index->create(
-            array(
-                'number_of_shards' => $this->numberOfShards,
-                'number_of_replicas' => $this->numberOfReplicas,
-                'analysis' => $analysis->build(),
-            )
+            [
+                'settings' => [
+                    'number_of_shards' => $this->numberOfShards,
+                    'number_of_replicas' => $this->numberOfReplicas,
+                    'analysis' => $analysis->build(),
+                ],
+            ]
         );
     }
 
@@ -376,7 +378,7 @@ class NodePagesConfiguration implements SearchConfigurationInterface
     protected function setMapping(Index $index, $lang = 'en')
     {
         $mapping = $this->createDefaultSearchFieldsMapping($index, $lang);
-        $mapping->send();
+        $mapping->send(['include_type_name' => true]);
         $index->refresh();
     }
 
