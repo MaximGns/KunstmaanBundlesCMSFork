@@ -16,6 +16,12 @@
             "homepage": "https://github.com/Kunstmaan/KunstmaanBundlesCMS/graphs/contributors"
         }
     ],
+        "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/MaximGns/Pagerfanta"
+        }
+    ],
     "require": {
         "php": "^7.1",
         "symfony/acl-bundle": "^1.0",
