@@ -64,7 +64,7 @@
         "friendsofsymfony/user-bundle": "^2.0",
         "knplabs/knp-menu-bundle": "~2.0",
         "guzzlehttp/guzzle": "~6.1",
-        "icapps/pagerfanta": "^2.0",
+        "icapps/pagerfanta": "^v2.0",
         "kunstmaan/google-api-custom": "~1.0",
         "ddeboer/data-import-bundle": "~0.1",
         "gedmo/doctrine-extensions": "^2.4.34",
