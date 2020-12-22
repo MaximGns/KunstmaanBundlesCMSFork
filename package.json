@@ -41,7 +41,7 @@
     "gulp-sourcemaps": "^2.4.1",
     "gulp-uglify": "^2.1.2",
     "mime-types": "^2.1.15",
-    "node-notifier": "^5.0.2",
+    "node-notifier": "^8.0.1",
     "postcss-reporter": "^3.0.0",
     "stylelint": "^7.9.0",
     "stylelint-config-standard": "^16.0.0",
