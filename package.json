@@ -62,7 +62,7 @@
     "jquery.typewatch": "^3.0.0",
     "jstree": "^3.3.3",
     "picturefill": "^3.0.2",
-    "plupload": "^2.3.6",
+    "plupload": "^2.3.9",
     "ramda": "^0.23.0",
     "select2": "^4.0.3",
     "sortablejs": "^1.5.1",
